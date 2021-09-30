@@ -1,0 +1,11 @@
+services:
+  ky_pass_rotate:
+    build: .
+    environment:
+      - VAULT_ADDR=
+      - ROLE_ID=
+      - SECRET_ID=
+      - SECRET_PATH=demo/pwd
+      - SECRET_KEY=password
+      - SECRET_ROTATION_TIME=1
+
