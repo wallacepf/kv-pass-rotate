@@ -1,6 +1,6 @@
 services:
   ky_pass_rotate:
-    build: .
+    image: wallacepf/kvpassrotate:latest
     environment:
       - VAULT_ADDR=
       - ROLE_ID=
